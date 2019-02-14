@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/DSTEd;component/UI/Theme/$NAME/Global.xaml" />
+        <ResourceDictionary Source="/DSTEd;component/UI/Theme/$NAME/Generic.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
