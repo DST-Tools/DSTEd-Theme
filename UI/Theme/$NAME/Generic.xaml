@@ -713,12 +713,12 @@
         <MenuItem Command="{Binding Path=DockAsDocumentCommand}" Header="{x:Static avalonDockProperties:Resources.Document_DockAsDocument}" />
         <MenuItem Command="{Binding Path=NewHorizontalTabGroupCommand}" Header="{x:Static avalonDockProperties:Resources.Document_NewHorizontalTabGroup}" Visibility="{Binding Path=IsEnabled, RelativeSource={RelativeSource Self}, Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}">
             <MenuItem.Icon>
-                <Image Width="14" Source="/DSTEd;component/Assets/Theme/DarkHTabGroup.png" Stretch="Uniform" />
+                <Image Width="14" Source="/DSTEd;component/Assets/Theme/$NAME/HTabGroup.png" Stretch="Uniform" />
             </MenuItem.Icon>
         </MenuItem>
         <MenuItem Command="{Binding Path=NewVerticalTabGroupCommand}" Header="{x:Static avalonDockProperties:Resources.Document_NewVerticalTabGroup}" Visibility="{Binding Path=IsEnabled, RelativeSource={RelativeSource Self}, Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}">
             <MenuItem.Icon>
-                <Image Width="14" Source="./DSTEd;component/Assets/Theme/DarkVTabGroup.png" Stretch="Uniform" />
+                <Image Width="14" Source="./DSTEd;component/Assets/Theme/$NAME/VTabGroup.png" Stretch="Uniform" />
             </MenuItem.Icon>
         </MenuItem>
         <MenuItem Command="{Binding Path=MoveToNextTabGroupCommand}" Header="{x:Static avalonDockProperties:Resources.Document_MoveToNextTabGroup}" Visibility="{Binding Path=IsEnabled, RelativeSource={RelativeSource Self}, Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}" />
